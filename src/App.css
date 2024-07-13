@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.heading{
+  text-align: center;
+  font-size: 40px;
+  background-color: #282c34;
+  color: rgb(0, 204, 255);
+  text-shadow: 1px 1px 1px  whitesmoke;
+}
+/* .button{
+  justify-content: space-between;
+  text-align: center;
+ color: rgb(33, 3, 133);
+ font-size: 38px;
+} */
+
+/* src/Stopwatch.css */
+/* body{
+  background-image: url(https://cdn.pixabay.com/photo/2022/12/28/21/03/time-7683809_1280.jpg);
+  background-size: cover;
+} */
+.stopwatch {
+  text-align: center;
+  margin: 12% 40%;
+  background-color: #010d4d;
+  
+  height: auto;
+  border: 2px solid rgb(99, 246, 182);
+  border-radius: 5px;
+}
+h1{
+  font-size: 35px;
+  text-decoration: underline;
+  color: rgb(245, 0, 0);
+}
+
+.time {
+  font-size: 48px;
+  margin: 20px 0;
+  color: aqua;
+  text-shadow: 1px 1px 1px whitesmoke;
+}
+
+.buttons button {
+  font-size: 25px;
+  padding: 2px 15px;
+  margin: 5px;
+  cursor: pointer;
+  color: rgb(11, 255, 3);
+}
+.buttons button:hover{
+  border: 3px solid rgb(235, 85, 5);
+  border-radius: 5px;
+
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
